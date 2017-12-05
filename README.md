@@ -12,7 +12,7 @@ FTP server<br />
 **DHCP Server:**
 
 On the server, install the DHCP server by running the command "sudo apt-get install isc-dhcp-server".<br />
-Once this is installed edit the files "/etc/default/isc-dhcp-server" and "/etc/dhcp/dhcpd.conf" with the relevent information on youre machines.<br />
+Once this is installed edit the files "/etc/default/isc-dhcp-server" and "/etc/dhcp/dhcpd.conf" with the relevant information on youre machines.<br />
 On the client side, edit the "/etc/network/interfaces" file and change ethernet port 1 (eth1) to dhcp from static<br />
 
 **FTP Server:**
@@ -41,7 +41,7 @@ Restart bind with the command: "sudo service bind9 restart".<br />
 In the file "/etc/resolv.conf" change the first nameserver line to the IP of your server machine.<br />
 Use the dig command with the site "www.example.lan" as in the command "dig www.example.lan".<br />
 Run this command a second time and ensure that the query time drops as this shows it's coming locally.<br />
-Edit the files "/etc/bind/db.example.lan" and "/etc/bind/db.192" with the relevent server information for your server machine.<br />
+Edit the files "/etc/bind/db.example.lan" and "/etc/bind/db.192" with the relevant server information for your server machine.<br />
 Restart the service using the command "sudo service bind9 restart".<br />
 Test the lookup with the command "nslookup www.example.lan".<br />
-The command should return with relevant information about the DNS server
+The command should return with relavant information about the DNS server
