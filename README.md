@@ -2,10 +2,10 @@
 
 **A client/server system will be setup with the following installed:**
 
-DNS server
-DHCP server
-NFS server
-FTP server
+DNS server<br />
+DHCP server<br />
+NFS server<br />
+FTP server<br />
 
 **Configuration is as follows:**
 
